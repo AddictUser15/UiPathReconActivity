@@ -4,8 +4,13 @@ Day in Day out while testing we do a comparison of these files which could be ve
 
 Reconciliation of attributes present in XML's and JSON.
 
+## Benefits
+Previously the comparison was being done manually. Here we have built a reusable UIPath Activity.
+1. Cost Saving and time saving (XML with 10M records processing in under 3 minutes)
+2. Reporting
+3. Reusability and open to use for all
 
-Business Use cases: 
+## Business Use cases 
 
 1. In a bank, a trade booking system is being migrated on to a new version and you need to compare/test the publication of trades. You need to be sure that all the attributes being sent are present and correctly mapped.
 
