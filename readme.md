@@ -34,17 +34,6 @@ If there are no discrepancies encountered a success mail would be sent out.
 
 ![](images/sample_email.png)
 
-# System Requirements
-
-1. .Net 4.6.1
-2. UIPath Studio 2019.7.0 
-3. UIPath Robot 
-
-# Execution Instructions
-1. Configure the user email in the Activity
-2. Publish the activity
-3. Go to UIPath platform and run the job using the name ReconActivity
-
 # Scenerios Handled in the application
 
 ## XML and JSON interfile format comparison
@@ -63,6 +52,18 @@ If there are no discrepancies encountered a success mail would be sent out.
 ## Sample Report
 ![](images/sample_report.png)
 
+# Environment Setup and Execution of the Activity
+
+## System Requirements
+
+1. .Net 4.6.1
+2. UIPath Studio 2019.7.0 
+3. UIPath Robot 
+
+## Execution Instructions
+1. Configure the user email in the Activity
+2. Publish the activity
+3. Go to UIPath platform and run the job using the name ReconActivity
 
 # Future Steps
 
