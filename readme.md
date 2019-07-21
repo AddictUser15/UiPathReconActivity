@@ -65,6 +65,21 @@ If there are no discrepancies encountered a success mail would be sent out.
 2. Publish the activity
 3. Go to UIPath platform and run the job using the name ReconActivity
 
+# Infinite Scope for Analytics
+
+## Measureing data quality
+Measureing the quality of data is one imporant step, data quality is measured on the following parameters
+1. Accuracy : Ratio of the data to errors, (there is no industry standard, depends on the size and nature of the data)
+2. Consistency checks: Making sure that the data is consistent across the two files, i.e. sum of prices of products in the two files is same
+3. Completeness: The data is complete
+4. Timeliness: The event of file process comparison can be automatically triggered, the system will monitor such events and triggered if the events deviate from the regular cadence
+
+## Providing Insights
+1. Common error patterns will be recognised and the system owners will be notified of the same to rectify any problems in the upstream data processing. Common patterns might include:
+  a) The cadence of the comparison event
+  b) The pattern of the 
+2. Descriptive analytics on the error logs provide a overall picture
+
 # Future Steps
 
 1. Integration with AWS for storing and reading the data on s3 (WIP)
