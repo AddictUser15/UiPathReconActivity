@@ -1,8 +1,8 @@
 # Project Description 
 
-Day in Day out while testing we do a comparison of these files which could be very complex and contain a large number of key value pairs (out of order). It is a repetitive task and is very time consuming. 
+Day in Day out while testing we do a comparison of these files which could be very complex and contain a large number of key-value pairs (out of order). It is a repetitive task and is very time consuming. 
 
-Reconciliation of attributes present in xml's, JSON and CSV.
+Reconciliation of attributes present in XML's and JSON.
 
 
 Business Use cases: 
