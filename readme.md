@@ -40,6 +40,11 @@ If there are no discrepancies encountered a success mail would be sent out.
 2. UIPath Studio 2019.7.0 
 3. UIPath Robot 
 
+# Execution Instructions
+1. Configure the user email in the Activity
+2. Publish the activity
+3. Go to UIPath platform and run the job using the name ReconActivity
+
 # Scenerios Handled in the application
 
 ## XML and JSON interfile format comparison
