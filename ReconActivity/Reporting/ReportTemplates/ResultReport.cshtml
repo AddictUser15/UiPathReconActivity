@@ -1,0 +1,88 @@
+﻿@using ReconActivity;
+@model System.Collections.Generic.List<ReconActivity.ReportData>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Detailed Report</title>
+</head>
+<body>
+
+<style type="text/css">
+	.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #dae5f4;
+	}
+</style>
+
+<table id="filteredTable" class="TFtable" border="1">
+    <thead>
+    <tr>
+        <td>Serial No.</td>
+        <td>Difference Type</td>
+        <td>X-Path</td>
+        <td>Source Line Number</td>
+        <td>Target Line Number</td>
+        <td>Source Value</td>
+        <td>Target Value</td>
+    </tr>
+    </thead>
+    @{ int serialNo = 0;}
+    <tbody>
+    @foreach (var result in Model)
+    {
+        {
+            serialNo = serialNo + 1;
+        }
+        <tr>
+            <td>@serialNo</td>
+            <td>@result.DifferenceType</td>
+            <td>@result.Xpath</td>
+            <td>@result.LeftLineNumber.GetString()</td>
+            <td>@result.RightLineNumber.GetString()</td>
+            <td>@result.OldValue.GetString()</td>
+            <td>@result.NewValue.GetString()</td>
+        </tr>
+    }
+    </tbody>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/tablefilter@0.6.94/dist/tablefilter/tablefilter.min.js"></script>
+<script data-config>
+    var tfConfig = {
+        base_path: 'https://cdn.jsdelivr.net/npm/tablefilter@0.6.94/dist/tablefilter/',
+        col_1: 'select',
+        auto_filter: {
+            delay: 1100 //milliseconds
+        },
+        filters_row_index: 1,
+        state: true,
+        alternate_rows: true,
+        rows_counter: true,
+        btn_reset: true,
+        status_bar: true,
+        msg_filter: 'Filtering...'
+    };
+    var tf = new TableFilter('filteredTable', tfConfig);
+    tf.init();
+</script>
+
+<pre></pre>
+</body>
+</html>

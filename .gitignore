@@ -1,0 +1,9 @@
+/*.user
+/ReconActivity/bin/Release
+/ReconActivity/obj/Debug
+/ReconActivity/obj/Release
+/XmlComparer/bin/Debug
+/XmlComparer/bin/Release
+/XmlComparer/obj/Debug
+/XmlComparer/obj/Release
+/packages/*
