@@ -85,4 +85,4 @@ Measureing the quality of data is one imporant step, data quality is measured on
 1. Integration with GCP,Azure for storing and reading the data on storage services (WIP)
 2. Integration with other popular file formats like protobuf, yml etc
 3. Maintaining record of all the comparisons in a NoSQL db
-4. Self containing databses
+4. Self containing runs
