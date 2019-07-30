@@ -21,7 +21,9 @@ Previously the comparison was being done manually. Here we have built a reusable
 User needs to drop an email with the location of the file which needs to be compared. BOT would be polling the inbox and would trigger the process which will read the file and do a comparion. In case there are mismatches it will reply back on the same email with an html report highlighting the gaps.
 If there are no discrepancies encountered a success mail would be sent out. 
 
-
+# Flow Charts
+![](images/Breakup.jpg)
+![](images/CompleteFlowChart.JPG)
 # Process Flow
 
 1. The tool monitors the number of unread emails with subject containing the word _compare_
