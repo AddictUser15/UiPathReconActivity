@@ -23,6 +23,7 @@ If there are no discrepancies encountered a success mail would be sent out.
 
 # Flow Charts
 ![](images/CompleteFlowChart.JPG)
+--------------------------------------------------------------------------------------------------------------------------------
 ![](images/Breakup.JPG)
 
 # Process Flow
