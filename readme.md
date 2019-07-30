@@ -82,6 +82,7 @@ Measureing the quality of data is one imporant step, data quality is measured on
 
 # Future Steps
 
-1. Integration with AWS for storing and reading the data on s3 (WIP)
-2. Integration with other popular file formats like CSV, protobuf, yml etc
+1. Integration with GCP,Azure for storing and reading the data on storage services (WIP)
+2. Integration with other popular file formats like protobuf, yml etc
 3. Maintaining record of all the comparisons in a NoSQL db
+4. Self containing databses
