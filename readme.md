@@ -32,7 +32,7 @@ If there are no discrepancies encountered a success mail would be sent out.
 
 ## Sample User Email
 
-![](images/sample_email.png)
+![](images/SampleEmail.png)
 
 # Scenerios Handled in the application
 
