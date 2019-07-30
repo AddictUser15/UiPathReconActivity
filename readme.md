@@ -22,8 +22,9 @@ User needs to drop an email with the location of the file which needs to be comp
 If there are no discrepancies encountered a success mail would be sent out. 
 
 # Flow Charts
-![](images/Breakup.jpg)
 ![](images/CompleteFlowChart.JPG)
+![](images/Breakup.JPG)
+
 # Process Flow
 
 1. The tool monitors the number of unread emails with subject containing the word _compare_
